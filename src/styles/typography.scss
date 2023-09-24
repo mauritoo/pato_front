@@ -1,0 +1,46 @@
+// Reglas @font-face para las fuentes Telegraf
+@font-face {
+    font-family: 'Telegraf-Regular';
+    src: url('src/assets/fonts/Telegraf-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Telegraf-UltraBold';
+    src: url('src/assets/fonts/Telegraf-UltraBold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Telegraf-UltraLight';
+    src: url('src/assets/fonts/Telegraf-UltraLight.otf') format('opentype');
+    font-weight: lighter;
+    font-style: normal;
+  }
+  
+  // Reglas @font-face para las fuentes Nocturne
+  @font-face {
+    font-family: 'Nocturne-Regular';
+    src: url('src/assets/fonts/Nocturne-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Nocturne-Black';
+    src: url('src/assets/fonts/Nocturne-Black.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  
+  // Variables para las fuentes Telegraf
+  $telegrafRegular: 'Telegraf-Regular', sans-serif;
+  $telegrafUltraBold: 'Telegraf-UltraBold', sans-serif;
+  $telegrafUltraLight: 'Telegraf-UltraLight', sans-serif;
+  
+  // Variables para las fuentes Nocturne
+  $nocturneRegular: 'Nocturne-Regular', sans-serif;
+  $nocturneBlack: 'Nocturne-Black', sans-serif;
